@@ -1,2 +1,5 @@
-# Connect4
-Project for CMSC498V at UMD. Developing a Haskell program that plays the Connect4 game
+# connect 4 game
+# installation:
+stack install
+./<location of binary>
+```
