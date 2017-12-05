@@ -8,5 +8,3 @@ Just type `connect4` in any directory and the window to play the game will show 
 
 ### About the implementation:
 The graphics are built with the Gloss library. The computer strategy is a min-max with depth 2. It has been set to this depth to make it faster, if you want you can dive into the code and change the depth as you please. The bigger the depth, the harder it is to beat the computer. The computer is *not* unbeatable though.
-
-### Screenshot
