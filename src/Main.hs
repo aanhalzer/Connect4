@@ -185,7 +185,7 @@ debug = False
 
 computeMove :: Tile -> Board -> Move
 computeMove tile board 
-  = trace ("scores/moves: " ++ show (scoredMoves)) $ snd $ maximum scoredMoves 
+  = snd $ maximum scoredMoves 
   where
         scoredMoves = zip scores moves
         scores      = [evaluateBoardMax (maxDepth-1) x tile $ put board tile x | x <- moves]
